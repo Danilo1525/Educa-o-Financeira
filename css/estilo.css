@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#cabecalho {
+    background-color: rgb(18, 89, 27);
+    width: 100%;
+    height: 15vh;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+#links {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    margin-right: 20px;
+    text-align: center;
+}
+
+.link img {
+    height: 40px;
+    width: auto;
+}
+
+.link p {
+    margin: 5px 0 0;
+    color: white;
+    font-size: 14px;
+}
+
+.barra {
+    border-right: 2px solid white;
+    height: 30px;
+    margin-right: 20px;
+}
+
+#saibamais {
+    margin-left: auto;
+}
+
+#cabecalho {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+#logo img {
+    height: 80px;
+    width: auto;
+}
+
+#links {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    margin-right: 20px;
+    text-align: center;
+}
+
+.link img {
+    height: 40px;
+    width: auto;
+}
+
+.link p {
+    margin: 5px 0 0;
+    color: white;
+    font-size: 14px;
+}
+
+.barra {
+    border-right: 2px solid white;
+    height: 30px;
+    margin-right: 20px;
+}
+
+#saibamais {
+    margin-left: auto;
+}
+
+	
+
+.conteudo {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.pai {
+    display: flex;
+    aling align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+#filho3,
+#filho4,
+#filho5,
+#filho6 {
+    flex-basis: calc(25% - 20px); 
+    min-height: 50vh;
+    background-color: #3D5179;
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+}
+
+#filho7 {
+    flex-basis: calc(100% - 20px); 
+    min-height: 30vh;
+    background-color: #3D5179;
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+}
+
+
+
+#rodape {
+    width: 100%;
+    background-color: rgb(18, 89, 27);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+@media (max-width: 760px) {
+
+    .conteudo {
+        width: 100%;
+    }
+
+    #filho3,
+    #filho4 {
+        flex-basis: calc(50% - 20px);
+    }
+
+    #filho5,
+    #filho6 {
+        flex-basis: calc(50% - 20px);
+    }
+
+    #filho7 {
+        flex-basis: calc(100% - 20px);
+    }
+}
